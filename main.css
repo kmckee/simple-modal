@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.618em;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: pink;
+}
+
+p {
+    margin: 1em 0;
+}
+
+button {
+    padding: .2em 1em;
+}
+
+.overlay {
+    display: none;
+    background-color: rgba(0,0,0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+.show { display: flex; }
+
+.modal {
+    background-color: white;
+    padding: 2em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
